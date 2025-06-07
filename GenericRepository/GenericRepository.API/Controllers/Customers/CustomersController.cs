@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace GenericRepository.API.Controllers.Customers;
 
 [Route("api/[controller]")]
-[ApiController]
+[ApiController]  
 public class CustomersController : ControllerBase
 {
     private readonly ICustomerRepository _customerRepository;
